@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/search.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#one">one</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#two">two</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#three">three</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">four</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">five</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">six</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#End">End</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="show.html">link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="End.html">link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="one">
+        <div class="container">
+            <h1 class="H1">Search hundreds of filght</h1>
+            <p class="P">Explore the world with us !!</p>
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-form">
+                            <div class="row do">
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label class="u" for="">
+                                            <img src="صور/police-station-facade.png" alt="" class="Icon">
+                                        </label>
+                                        <input type="text" class="well form-control" placeholder="where are you go? "
+                                            name="where are you going?">
+                                    </div><!-- form-group -->
+                                </div><!-- col -->
+
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <img src="صور/police-station-facade.png" alt="" class="Icon">
+                                        <p class="T">
+                                        check in - checkout
+                                        </p>
+                                        <input type="date" class="form-control">
+                                    </div><!-- form-group -->
+                                </div><!-- col -->
+
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group Right ">
+                                        <label class="u" for="">
+                                            <img src="صور/police-station-facade.png" alt="" class="Icon">
+                                        </label>
+                                        <input type="text" class="form-control" placeholder="2 adults-0 child-1room ">
+                                    </div><!-- form-group Right -->
+                                </div><!-- col -->
+
+                                <div class="col-md-2 col-sm-6 col-xs-12">
+                                    <div class="from-btn">
+                                        <a href="#" class="from-b"> search</a>
+                                    </div><!-- from-btn -->
+                                </div><!-- col -->
+                            </div><!-- row do -->
+                    </div><!-- header-form -->
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <section id="two">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="m">
+                        <img src="صور/office-store.png" alt="">
+                        <a class="U" href="#">fliters </a>
+                    </div><!-- m -->
+
+                    <div class="multiselect">
+                        <div class="selectBox" onclick="showCheckboxes()">
+                            <select>
+                                <option>Accommodation type</option>
+                            </select>
+                            <div class="overSelect"></div><!-- overSelect -->
+                        </div><!-- selectBox -->
+
+                        <div id="checkboxes">
+                            <label for="one">
+                                <input type="checkbox" id="one" /> Hotels</label>
+                            <label for="two">
+                                <input type="checkbox" id="two" /> rooms</label>
+                            <label for="three">
+                                <input type="checkbox" id="three" /> house</label>
+                            <label for="three">
+                                <input type="checkbox" id="four" /> house</label>
+                        </div><!-- checkboxes -->
+                    </div><!-- multiselect -->
+
+                    <div class="multiselect two">
+                        <div class="selectBox" onclick="showCheckboxes1()">
+                            <select>
+                                <option>Prise</option>
+                            </select>
+                            <div class="overSelect"></div><!-- overSelect -->
+                        </div><!-- selectBox -->
+
+                        <div id="checkboxes1">
+                            <label for="one">
+                                <input type="checkbox" id="one" /> Hot
+                            </label>
+                            <label for="two">
+                                <input type="checkbox" id="two" /> ro
+                            </label>
+                            <label for="three">
+                                <input type="checkbox" id="three" /> ho
+                            </label>
+                            <label for="three">
+                                <input type="checkbox" id="four" /> how
+                            </label>
+                            <label>
+                                <input type="checkbox" id="four" /> how
+                            </label>
+                            <label>
+                                <input type="checkbox" id="four" /> how</label>
+                        </div><!-- checkboxes1 -->
+                    </div><!-- multiselect two -->
+
+                    <div class="multiselect three">
+                        <div class="selectBox" onclick="showCheckboxes2()">
+                            <select>
+                                <option>Out bround</option>
+                            </select>
+                            <div class="overSelect">
+                            </div><!-- overSelect -->
+                        </div><!-- selectBox -->
+
+                        <div id="checkboxes2">
+                            <label for="one">
+                                <input type="range" id="one" />
+                            </label>
+                            <label for="two">
+                                <input type="range" id="two" />
+                            </label>
+                        </div><!-- checkboxes2 -->
+                    </div><!-- multiselect three -->
+
+                    <div class="multiselect four">
+                        <div class="selectBox" onclick="showCheckboxes4()">
+                            <select>
+                                <option>Star Rating</option>
+                            </select>
+                            <div class="overSelect"></div>
+                        </div><!-- selectBox -->
+
+                        <div id="checkboxes4">
+                            <label for="one">
+                                <input type="checkbox" id="one" /> Hot</label>
+                            <label for="two">
+                                <input type="checkbox" id="two" /> ro</label>
+                            <label for="three">
+                                <input type="checkbox" id="three" /> ho</label>
+                            <label for="three">
+                                <input type="checkbox" id="four" /> how</label>
+                            <label for="three">
+                                <input type="checkbox" id="four" /> how</label>
+                            <label for="three">
+                                <input type="checkbox" id="four" /> how</label>
+                        </div><!-- checkboxes4 -->
+                    </div><!-- multiselect four -->
+                </div><!-- col -->
+
+                <div class="col-md-9">
+                    <div class="select-parent">
+                        <label for="">Sant by</label>
+                        <select>
+                            <option value="">hotel</option>
+                            <option value="">air port</option>
+                            <option value="">customer</option>
+                            <option value="">new customer</option>
+                        </select>
+                    </div><!-- select-parent -->
+
+                    <div class="header-form1">
+                        <div class="form-wrapper">
+                            <div class="row do1">
+                                <div class="col-3 ">
+                                    <div class="form-group1">
+                                        <button class="T1">Best</button>
+                                    </div><!-- form-group1 -->
+                                </div><!-- col -->
+
+                                <div class="col-3 ">
+                                    <div class="form-group1 Right1">
+                                        <button class="T1">Top review</button>
+                                    </div><!-- form-group1 Right1 -->
+                                </div><!-- col -->
+
+                                <div class="col-3">
+                                    <div class="form-group1 Right1">
+                                        <button class="T1">Lowest Price</button>
+                                    </div><!-- form-group1 Right1 -->
+                                </div><!-- col -->
+
+                                <div class="col-3">
+                                    <div class="form-group1 Right1">
+                                        <button class="T1">Other sent</button>
+                                    </div><!-- form-group1 Right1 -->
+                                </div><!-- col -->
+                            </div><!-- row do1 -->
+                        </div><!-- form-wrapper -->
+                    </div><!-- header-form1 -->
+
+                    <div class="cardm ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="photo1" src="photo/12089-10.jpg" alt="">
+                            </div><!-- col -->
+
+                            <div class="col-md-4">
+                                <h1 class="c">ahmed</h1>
+                                <p class="">Lorem ipsum dolor sit amet.</p>
+                                <p class="">Lorem ipsum amet.</p>
+                                <p class=""> sit amet.</p>
+                                <p class="">(Lorem ipsum )</p>
+                            </div><!-- col -->
+
+                            <div class="col-md-4">
+                                <div class="button">
+                                    <h2> 200.22$</h2>
+                                    <p class="v">Lorem, ipsum.</p>
+                                    <p class="v">Lorem amet.</p>
+                                    <button class="e"> BOOK Now </button>
+                                </div><!-- button -->
+                            </div><!-- col -->
+                        </div><!-- row -->
+                    </div><!-- cardm -->
+
+                    <div class="cardm ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="photo1" src="photo/12089-10.jpg" alt="">
+                            </div><!-- col -->
+
+                            <div class="col-md-4">
+                                <h1 class="c">ahmed</h1>
+                                <p class="">Lorem amet.</p>
+                                <p class="">Lorem sit amet.</p>
+                                <p class="">Lorem ipsum amet.</p>
+                                <p class=""> sit amet.</p>
+                                <p class="">(Lorem ipsum )</p>
+                            </div><!-- col -->
+
+                            <div class="col-md-4">
+                                <div class="button">
+                                    <h2> 200.22$</h2>
+                                    <p class="v">Lorem, ipsum.</p>
+                                    <p class="v">Lorem ipsum dolor sit.</p>
+                                    <button class="e"> BOOK Now </button>
+                                </div><!-- button -->
+                            </div><!-- col -->
+                        </div><!-- row -->
+                    </div><!-- cardm -->
+
+                    <div class="cardm ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="photo1" src="photo/12089-10.jpg" alt="">
+                            </div><!-- col -->
+
+                            <div class="col-md-4">
+                                <h1 class="c">ahmed</h1>
+                                <p class="">Lorem amet.</p>
+                                <p class="">Lorem sit amet.</p>
+                                <p class="">Lorem ipsum amet.</p>
+                                <p class=""> sit amet.</p>
+                                <p class="">(Lorem ipsum )</p>
+                            </div><!-- col -->
+
+                            <div class="col-md-4">
+                                <div class="button">
+                                    <h2> 200.22$</h2>
+                                    <p class="v">Lorem, ipsum.</p>
+                                    <p class="v">Lorem ipsum dolor sit.</p>
+                                    <button class="e"> BOOK Now </button>
+                                </div><!-- button -->
+                            </div><!-- col -->
+                        </div><!-- row -->
+                    </div><!-- cardm -->
+
+                    <div class="cardm ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="photo1" src="photo/12089-10.jpg" alt="">
+                            </div><!-- col -->
+
+                            <div class="col-md-4">
+                                <h1 class="c">ahmed</h1>
+                                <p class="">Lorem amet.</p>
+                                <p class="">Lorem sit amet.</p>
+                                <p class="">Lorem ipsum amet.</p>
+                                <p class=""> sit amet.</p>
+                                <p class="">(Lorem ipsum )</p>
+                            </div><!-- col -->
+
+                            <div class="col-md-4">
+                                <div class="button">
+                                    <h2> 200.22$</h2>
+                                    <p class="v">Lorem, ipsum.</p>
+                                    <p class="v">Lorem ipsum dolor sit.</p>
+                                    <button class="e"> BOOK Now </button>
+                                </div><!-- button -->
+                            </div><!-- col -->
+                        </div><!-- row -->
+                    </div><!-- cardm -->
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+
+    <footer class="py-5 text-center text-white" id="End">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-6 col-xs-12">
+                    <ul class="list-unstyled ">
+                        <li><a href="#" class="">Content</a></li>
+
+                        <li><a href="#" class="">Supporting</a></li>
+
+                        <li><a href="#" class="">Follow Us</a></li>
+
+                        <li><a href="#" class=" ">Email</a></li>
+
+                        <li><a href="#" class="">Yhoo</a></li>
+                    </ul>
+                    <p>Remember.thisbookingis <a href="#">fully refundable</a> until 21/02/2032</p>
+                </div><!-- col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <ul class="sci d-flex  ">
+                        <a href="http://www.facebook.com"><img src="social-media/facebook_1.png" alt=""></a>
+                        <a href="http://www.gp.com"><img src="social-media/google-plus_1.png" alt=""></a>
+                        <a href="http://www.linkedin.com"><img src="social-media/in_1.png" alt=""></a>
+                    </ul>
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/all.min.js"></script>
+    
+    <script>var expanded = false;
+
+        function showCheckboxes() {
+            var checkboxes = document.getElementById("checkboxes");
+            if (!expanded) {
+                checkboxes.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes.style.display = "none";
+                expanded = false;
+            }
+        }
+    </script>
+
+    <script>var expanded = false;
+
+        function showCheckboxes1() {
+            var checkboxes1 = document.getElementById("checkboxes1");
+            if (!expanded) {
+                checkboxes1.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes1.style.display = "none";
+                expanded = false;
+            }
+        }
+    </script>
+
+    <script>var expanded = false;
+
+        function showCheckboxes2() {
+            var checkboxes2 = document.getElementById("checkboxes2");
+            if (!expanded) {
+                checkboxes2.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes2.style.display = "none";
+                expanded = false;
+            }
+        }
+    </script>
+
+    <script>var expanded = false;
+
+        function showCheckboxes4() {
+            var checkboxes4 = document.getElementById("checkboxes4");
+            if (!expanded) {
+                checkboxes4.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes4.style.display = "none";
+                expanded = false;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

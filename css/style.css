@@ -1,0 +1,272 @@
+body{
+    background-color: azure;
+}
+/* Start Navbar */
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color: rgb(240, 231, 231);
+}
+
+/* .navbar-nav .nav-item .nav-link.active, */
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(159, 159, 224);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+.dropdown-menu li a{
+    color:black ;
+}
+.dropdown-menu li a:hover{
+    background-color: #b68181;
+    color:#f1071a;
+}
+
+/* End Navbar */
+.town {
+    position: relative;
+    margin-top: 100px;
+}
+
+.card-body {
+    height: 70px;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: #21252987;
+    color: white;
+    bottom: 0px;
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card img {
+    height: 200px !important;
+}
+
+h5 {
+    margin: 10px;
+}
+
+.card:hover .card-title {
+    height: 220px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .card-body {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-btn {
+    border: solid rgb(88, 68, 68);
+    color: rgb(233, 48, 48);
+}
+
+h1 {
+    color: #E7586C;
+    margin-bottom: 20px;
+}
+
+.LZ {
+    padding-left: 85px;
+    color: #E7586C;
+    font-weight: bold;
+}
+.T h3 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.text-muted {
+    padding-top: 20px;
+}
+
+h6 {
+    color: #eb475d;
+}
+
+.T h3 {
+    text-align: left;
+    margin-top: 44px;
+}
+
+.about {
+    margin-top: 68px;
+    padding-left: 9px;
+}
+
+.bod {
+    border-top-right-radius: 150px;
+}
+
+.v {
+    color: black;
+    text-align: center;
+}
+
+.lap {
+    padding: 5px;
+}
+
+.brand img {
+    height: 200px;
+}
+
+.brand {
+    width: 20%;
+}
+
+.brand img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.carousel-inner .member {
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: #d1c8c8;
+}
+
+.content-img {
+    width: 40%;
+    display: inline-block;
+}
+
+.con {
+    width: 100%;
+    height: 100px;
+}
+
+.content-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+.content-test {
+    width: 58%;
+    display: inline-block;
+}
+
+.members {
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #E7586C;
+}
+
+footer ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 9px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+a:hover {
+    color: #ffc107;
+}
+@media only screen and (max-width: 1200px){
+    .LZ {
+        padding-left: 38px;
+        color: #E7586C;
+        font-weight: bold;
+    }
+    .content-test {
+        padding-left: 10px;
+        width: 58%;
+        display: inline-block;
+    }
+    .members {
+        padding-top: 89px;
+    }
+   
+    /* .members {
+        padding-top: 20px;
+    } */
+}
+@media only screen and (max-width: 600px){
+    .text-muted {
+        padding-top: 18px;
+        padding-left: 10px;
+    }
+    .LZ {
+        padding-left: 216px;
+        color: #E7586C;
+        font-weight: bold;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 126px;
+    }
+    .T h3 {
+        text-align: end;
+        margin-top: -119px;
+    }
+    .about p {
+        margin-right: 202px;
+        margin-top: 68px;
+        padding-left: 9px;
+    }
+    .members {
+        padding-top: 5px;
+    }
+    .carousel-inner .member {
+        position: relative;
+        padding: 30px;
+        box-shadow: 0px 2px 15px rgb(0, 0, 0, 0.1);
+        border-radius: 5px;
+        background: #d1c8c8;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .LZ {
+        padding-left: 151px;
+        color: #E7586C;
+        font-weight: bold;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 69px;
+    }
+    .T h3 {
+        text-align: end;
+        margin-top: -205px;
+        font-size: 34px;
+    }
+    .about p {
+        margin-right: 202px;
+        margin-top: 40px;
+        padding-left: 4px;
+    }
+    
+}

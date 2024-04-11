@@ -1,0 +1,555 @@
+.navbar {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(243, 241, 234);
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 60px;
+    background-color: white;
+    width: 100%;
+    border: 3px solid rgb(250 248 245 / 6%);
+    box-shadow: 0 0 18px #8080807d;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color: #f5cd56;
+}
+
+.img {
+    text-align: center;
+    padding-top: 17px;
+    background-color: white;
+    width: 100%;
+    margin-top: 13px;
+    border: 8px solid rgb(250 248 245 / 6%);
+    box-shadow: 0 0 78px #8080807d;
+}
+
+.photo {
+    height: 61px;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+label {
+    display: inline-block;
+    font-size: 21px;
+}
+
+.form {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.H {
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.logo {
+    width: 4%;
+    margin-bottom: 6px;
+}
+
+.m {
+    display: inline-block;
+    padding-top: 14px;
+    margin-left: 10px;
+    width: 55%;
+}
+
+.S {
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.s {
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 10px;
+}
+
+.h2 {
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.one {
+    margin-left: 16px;
+    margin-bottom: 11px;
+    width: 50%;
+}
+
+.imo {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: 17px;
+}
+
+.imo img {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.imo h4 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 27px;
+}
+
+.imo2 {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.imo2 h4 {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.ulo {
+    list-style: none;
+}
+
+.ulo li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ulo A {
+    color: black;
+    margin-left: 0px;
+}
+
+.P {
+    margin-left: 36px;
+}
+
+.ulo1 {
+    list-style: none;
+    background: darkgray;
+    /* width: 86%; */
+}
+
+.ulo1 li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ulo1 A {
+    color: black;
+    margin-left: 0px;
+}
+
+.P {
+    margin-left: 36px;
+    padding-top: 30px;
+}
+
+.img2 {
+    width: 121px;
+    height: 46px;
+    border-radius: 17px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+
+.checkbox {
+    padding-top: 10px;
+    background: darkgray;
+    width: 54%;
+    border-radius: 8px;
+}
+
+.img2 {
+    width: 121px;
+    height: 46px;
+    border-radius: 17px;
+}
+
+.input {
+    margin-left: 95px;
+}
+
+.checkbox2 {
+    padding-top: 6px;
+    background: darkgray;
+    width: 54%;
+    border-radius: 8px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.m3 {
+    display: flex;
+    padding-top: 14px;
+    margin-left: 10px;
+}
+
+.S3 {
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 97%;
+    background: rgb(188, 231, 241);
+}
+
+.s3 {
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 10px;
+}
+
+.h2 {
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.div {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.H1 {
+    font-size: 19px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.logo1 {
+    width: 25px;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.m1 {
+    display: inline-block;
+    padding-top: 14px;
+    margin-left: 10px;
+    width: 55%;
+}
+
+.tittlee {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+}
+
+.label {
+    font-size: 23px;
+}
+
+.pic {
+    display: inline-block;
+    height: 58px;
+}
+
+.L {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 44%;
+}
+
+.pc {
+    text-align: center;
+}
+
+.core {
+    background: #f0eeea;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 31px;
+    border: 2px solid #0000007a;
+}
+
+.hed {
+    font-size: 15px;
+    margin-left: 11px;
+    margin-bottom: 22px;
+}
+
+.pb {
+    margin-left: 11px;
+    margin-bottom: 0px;
+}
+
+.To {
+    margin-bottom: 15px;
+}
+
+.div2 {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.H2 {
+    font-size: 19px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.logo2 {
+    width: 25px;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.m2 {
+    display: inline-block;
+    padding-top: 14px;
+    margin-left: 10px;
+    width: 55%;
+}
+
+.L2 {
+    width: 100%;
+}
+
+.e {
+    width: 100%;
+    border: none;
+    color: aliceblue;
+    background-color: #e7586c;
+    margin-bottom: 16px;
+    margin-top: 41%;
+}
+
+.B2 {
+    font-size: 20px;
+    padding: 6px;
+}
+
+.Do {
+    margin-top: 49%;
+}
+
+.A2 {
+    padding: 6px;
+}
+
+.right {
+    float: right;
+    width: auto;
+}
+
+.vew {
+    border: 2px solid #f5cd56;
+    margin-top: 24px;
+}
+
+.pic2 {
+    width: 91%;
+    margin-left: 10px;
+}
+
+.card {
+    width: 96%;
+    margin-left: 6px;
+    margin-bottom: 15px;
+}
+
+.Tab {
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.tab1 {
+    font-size: 19px;
+    margin-left: 38px;
+}
+
+.sup {
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.Top1 {
+    margin-left: 10px;
+    display: flex;
+}
+
+.Top2 {
+    margin-left: 10px;
+    display: flex;
+}
+
+.top4 {
+    margin: auto;
+}
+
+.Tp1 {
+    margin-left: 10px;
+    display: flex;
+}
+
+.Tp2 {
+    margin-left: 10px;
+    /* font-size: 21px; */
+
+}
+
+.tp4 {
+    margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .checkbox {
+        padding-top: 10px;
+        background: darkgray;
+        width: 64%;
+        border-radius: 8px;
+    }
+
+    .checkbox2 {
+        padding-top: 6px;
+        background: darkgray;
+        width: 64%;
+        border-radius: 8px;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .checkbox {
+        padding-top: 10px;
+        background: darkgray;
+        width: 87%;
+        border-radius: 8px;
+    }
+
+    .checkbox2 {
+        padding-top: 6px;
+        background: darkgray;
+        width: 87%;
+        border-radius: 8px;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .Do {
+        margin-top: 0%;
+    }
+
+    .e {
+        width: 100%;
+        border: none;
+        color: aliceblue;
+        background-color: #e7586c;
+        margin-bottom: 16px;
+        margin-top: 0%;
+    }
+
+    .L {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    .checkbox {
+        padding-top: 7px;
+        background: darkgray;
+        width: 88%;
+        border-radius: 8px;
+    }
+
+    .checkbox2 {
+        padding-top: 6px;
+        background: darkgray;
+        width: 89%;
+        border-radius: 8px;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Do {
+        margin-top: 0%;
+    }
+
+    .tab1 {
+        font-size: 19px;
+        margin-left: 17px;
+    }
+
+    .checkbox {
+        padding-top: 7px;
+        background: darkgray;
+        width: 57%;
+        border-radius: 8px;
+    }
+
+    .checkbox2 {
+        padding-top: 6px;
+        background: darkgray;
+        width: 57%;
+        border-radius: 8px;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .checkbox {
+        padding-top: 7px;
+        background: darkgray;
+        width: 80%;
+        border-radius: 8px;
+    }
+
+    .checkbox2 {
+        padding-top: 6px;
+        background: darkgray;
+        width: 80%;
+        border-radius: 8px;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-left: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 325px) {}
